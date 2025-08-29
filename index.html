@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Recipe Book</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="recipeApp">
+    <h1>📚 My Recipe Book</h1>
+    <button id="addRecipeBtn">➕ Add New Recipe</button>
+    <div id="recipeGallery"></div>
+    <div id="recipeDetails"></div>
+    <div id="formContainer" class="modal">
+      <div class="form-content">
+        <h2>Add Recipe</h2>
+        <input type="file" id="imageUpload" accept="image/*">
+        <input type="text" id="recipeName" placeholder="Recipe Name">
+        <textarea id="ingredients" placeholder="Ingredients (one per line)"></textarea>
+        <textarea id="process" placeholder="Process (one step per line)"></textarea>
+        <button onclick="saveRecipe()">✅ Save</button>
+        <button onclick="closeForm()">❌ Cancel</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
