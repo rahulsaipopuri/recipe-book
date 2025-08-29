@@ -32,4 +32,4 @@ View saved recipes in the gallery, where each image represents a recipe.
 Click a recipe image to display its details, including ingredients and preparation process.
 Recipes are saved in the browser and persist until localStorage is cleared.
 
-Visit this link to check the web app - 
+Visit this link to check the web app - https://rahulsaipopuri.github.io/recipe-book/
